@@ -2,14 +2,15 @@
 
 import React from 'react'
 import AddToCart from './AddToCart'
-import styles from './ProductCard.module.css'
+// import styles from './ProductCard.module.css'
 
 
 
 const ProductCard = () => {
     return (
-        <div className={styles.cardContainer}>
-            <h1>ProductCard</h1>
+        // <div className={styles.cardContainer}>
+        <div>
+            <h1></h1>
             <AddToCart />
         </div>
     )
